@@ -1,7 +1,11 @@
+#MacOS
 .DS_Store
 
+#IntelliJ
 .idea/*
 *.iml
+
+#Compiled-Java-Output
 
 *.class
 out/*
