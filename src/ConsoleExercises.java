@@ -1,3 +1,5 @@
+import jdk.jshell.Snippet;
+
 import java.util.Scanner;
 
 public class ConsoleExercises {
@@ -23,5 +25,20 @@ public class ConsoleExercises {
         String sentence = scanner.nextLine();
         System.out.printf("Your sentence: %s%n", sentence);
         System.out.format("Here is the random variable: %s%n", random);
+
+        System.out.print("Please enter the length and width of the classroom");
+        double length = scanner.nextDouble();
+        System.out.print("Please enter width of the classroom");
+        double width = new Double(scanner.nextLine());
+        System.out.printf("The Area of the Classroom is %f.", length * width);
+        System.out.printf("the perimeter of the classroom is %.2f feet.", 2 * (length + width));
+
+
+        boolean Kiryukun = true;
+        boolean Majimasan = false;
+
+        System.out.println(((Kiryukun && Majimasan || Kiryukun )));
+
+
     }
 }
