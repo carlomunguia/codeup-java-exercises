@@ -45,5 +45,5 @@ public class MadLibGame {
     public static void main(String[] args) {
         run();
     }
-
+}
 

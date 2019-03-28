@@ -1,4 +1,4 @@
-//package oop;
-//
-//public class Person {
-//}
+package oop;
+
+public class Person {
+}

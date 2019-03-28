@@ -17,7 +17,7 @@ public class HelloWorld {
         System.out.println(morePrecise);
 //        System.out.format("!, $$", message, name);
 
-        double Zion = (31f/21f);
+        double Zion = (31f / 21f);
 //        zion = "Zion";
 
         System.out.println("Hello" + "!");
@@ -28,7 +28,6 @@ public class HelloWorld {
         String userInput = scanner.next();
 
         System.out.println("You entered: --> \"" + userInput + "\" <--");
-
 
 
     }

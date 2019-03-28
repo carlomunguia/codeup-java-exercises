@@ -12,10 +12,12 @@ class MadLibUtils {
         return IoUtils.getScanner().nextLine();
     }
 
-    private static String getWord( String prompt, String type) {
+    private static String getWord(String prompt, String type) {
         IoUtils.output(IoUtils.nullCoalesceStr(prompt, "Please enter a word matching the following description: ") + type + "...");
         return IoUtils.getScanner().nextLine();
     }
+
+
 
     static MadLib createMadLib(String senPrompt, String wordType1Prompt, String wordType2Prompt, String wordType3Prompt) {
         String sentence = getSentence(senPrompt);
